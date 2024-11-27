@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+* {
+    font-family: 'Jura', sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+/* The h1 before the hover */
+.title {
+    text-align: center;
+    color: black;
+    transition: color 0.8s ease; 
+}
+  
+  /* The h1 during the hover */
+  .title:hover {
+    color: orange; 
+}
+
+.table {
+    border: 3px solid black;
+    width: 850px;
+    margin: 0 auto;
+}
+
+ /* td before the hover */
+
+td {
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+/* td during the hover */
+
+td:hover {
+    color: red;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:red
+}
